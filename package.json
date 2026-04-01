@@ -1,0 +1,21 @@
+{
+    "name": "synology-cloudflare-ddns",
+    "version": "1.0.0",
+    "description": "Synology Cloudflare DDNS configuration processor",
+    "main": "clashConfigProcess.js",
+    "scripts": {
+        "start": "node clashConfigProcess.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "js-yaml": "^4.1.0"
+    },
+    "keywords": [
+        "synology",
+        "cloudflare",
+        "ddns",
+        "clash"
+    ],
+    "author": "",
+    "license": "MIT"
+}
